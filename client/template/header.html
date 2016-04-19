@@ -1,0 +1,38 @@
+<template name="header">
+	
+	<header>
+		<div class="bg"></div>
+		<div class="pc">
+			<div class="reg">
+				{{#if currentUser}}
+					{{currentUser.username}} <a class="setInfo" href="#">设置个人信息</a>
+				{{/if}}
+				{{> loginButtons align="right"}}
+			</div>
+			<div class="logo"><a href="/">LOGO</a></div>
+			<ul class="top-nav">
+				<li><a class="active" href="/articles">文章</a></li>
+				<li><a href="/togethers">活动</a></li>
+				<li><a href="/collections">话题</a></li>
+				<li><a href="/friends">战友</a></li>
+			</ul>
+		</div>
+		<div class="mobile">
+			<div class="left-btn">
+				<div class="btn-nav"><a href="javascript:void(0)">=</a></div>
+				<ul class="left-nav none">
+					<li><a href="">文章</a></li>
+					<li><a href="">话题</a></li>
+					<li><a href="">话题</a></li>
+					<li><a href="">战友</a></li>
+					<li><a href="">注册</a></li>
+					<li><a href="">登录</a></li>
+				</ul>
+			</div>
+			<div class="title">点石成金</div>
+			<div class="right-btn">
+				<a class="search" href="javascript:void(0)">search</a>
+			</div>
+		</div>
+	</header>
+</template>
