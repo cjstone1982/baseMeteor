@@ -21,7 +21,7 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 
-kadira:blaze-layout    #html模板渲染
+#kadira:blaze-layout    #html模板渲染
 #kadira:react-layout     #react模板渲染
 
 accounts-base           #用户系统基础
